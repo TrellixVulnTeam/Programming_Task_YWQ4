@@ -1,0 +1,50 @@
+{% extends "layouts/layout1.html" %}
+{% block title %}
+Homepage
+{% endblock %}
+{% block content %}
+                    <li>
+                        <a class="page-scroll" href="login" >Login</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To My Webpage!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="register" class="page-scroll btn btn-xl">Tell Me More About Yourself</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="Welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Welcome</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12 text-center">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Please Register then Login</h4>
+                    <p class="text-muted">Click the button "Tell me About Yourself" to register.</p>
+                    <p class="text-muted">(Registration works but gives an error after you register.
+                        Just go back to the home directory)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
